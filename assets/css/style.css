@@ -1,0 +1,139 @@
+:root{
+    --color-main: #0455BF;
+
+
+    --color-sub-title:#0455BF;
+    --color-third-title:#263140;
+    --color-paragrafo: #828282;
+    --color-nav-text:#36465C;
+
+    --font-size-sub-title:26px;
+    --font-size-third-title:23px;
+    --font-size-paragrafo:20px;
+}
+
+body{
+    min-height:100vh;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.wrapper{
+
+}
+
+.header-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.nav-container{
+    display:flex;
+    gap:20px;
+}
+
+.title{
+    color: var(--color-main);
+}
+
+
+.link-nav{
+    color: var(--color-nav-text);
+}
+
+.container{
+
+}
+
+main{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+
+
+}
+
+sect
+
+.inicio{
+
+}
+
+.text-inicio{
+
+}
+
+.sub-title-inicio{
+
+}
+
+.btn-contato{
+
+}
+
+.img-inicio{
+
+}
+
+.img-perfil-inicio{
+
+}
+
+.sobre{
+
+}
+
+.sub-title{
+
+}
+
+.img-perfil-sobre{
+
+}
+
+.paragrafo-descricao{
+
+}
+
+.skills{
+
+}
+
+.lista-skills{
+
+}
+
+.box-skills{
+
+}
+
+.projetos{
+
+}
+
+.lista-projetos{
+
+}
+
+.box-projeto{
+
+}
+
+.contato{
+
+}
+
+.box-contato{
+
+}
+
+footer{
+
+}
+
+main > section{
+    visibility: hidden;
+}
