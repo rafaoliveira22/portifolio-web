@@ -92,7 +92,9 @@ main{
 }
 
 .img-inicio{
-
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 .img-perfil-inicio{
@@ -235,6 +237,13 @@ footer{
     color: #ffff;
 }
 
+/*FAZ PARTE DA FUNCIONALIDADE DOS SCROLL*/
 main > section{
     visibility: hidden;
 }
+
+
+
+
+
+

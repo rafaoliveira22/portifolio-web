@@ -1,0 +1,122 @@
+
+:root{
+    --font-size-sub-title:24px;
+    --font-size-third-title:20px;
+    --font-size-paragrafo:16px;
+}
+
+/*Mobile - 600px*/
+@media (max-width:599px){     
+    .nav-container{
+        /*flex-direction: column;*/
+        text-align:center;
+    } 
+    .title-inicio{
+        font-size: 1.5em;
+    }
+    
+    .sub-title-inicio{
+        font-size: 1.2em;
+    }
+    
+    
+    .img-perfil-inicio{
+        width:60%;
+        padding:20px;
+    }
+    
+    
+    .sub-title{
+        font-size: var(--font-size-sub-title);
+    }
+    
+    .img-perfil-sobre{
+        width:30%;
+    }
+    
+    .paragrafo-descricao{
+        font-size: var(--font-size-paragrafo);
+    }
+    
+    main > h3{
+        font-size: var(--font-size-third-title);
+    }
+    
+    .lista-skills > .box-skill > p{
+        font-size:14px;
+    }
+
+    .lista-skills > .box-skill > img{
+        width:10%;
+    }
+    
+    .box-skill{
+        gap:20px;
+        padding:10px;
+    }
+    
+    
+    .lista-projetos{
+        gap:20px;
+    }
+    
+    .box-projeto{
+        width:400px;
+    }
+
+    .box-projeto > img{
+        width:15%;
+    }
+
+    .box-projeto > p{
+        font-size:12px;
+    }
+    
+
+    .lista-contatos{
+        gap:20px;
+    }
+    
+    .box-contato{
+        gap:20px;
+    }
+    
+    .box-contato > a > p{
+        font-size:14px;
+    }
+    .icon-contato{
+        width:15%;
+    }
+    
+    .box-contato > a{
+        color:var(--color-paragrafo);
+        display: flex;
+        flex-direction:row-reverse;
+        align-items:center;
+        justify-content:center;
+        gap:20px;
+    }
+}
+
+/*Tablet - 768px*/
+@media (min-width:600px){
+    body{
+        background-color:yellow;
+    }
+}
+
+
+/*PC - 992px*/
+@media (min-width:992px){
+    body{
+        background-color:green;
+    }
+}    
+
+
+/*Large Screen - 1200px*/
+@media (min-width:1200px){
+    body{
+        background-color:pink;
+    }
+}
